@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+  margin: 50px;
+
+}
+
+body {
+  background-color: #282c34;
+  
+}
+.head{
+  width: 350px;
+  background-color: white;
+  margin: 0 auto;
+  height: 80px;
+  color: black;
+  padding: 5px;
+  border-radius: 30px;
+  align-self: center;
+}
+.heading {
+  font-family: 'Seaweed Script', cursive;
+}
+
+.content {
+  margin: 100px;
+  color: aliceblue;
+  font-family: 'Righteous', cursive;
+  font-size: 25px;
+}
+
+.line{
+  width: 330px;
+  height: 5px;
+  align-self: center;
+  background-color: aliceblue;
+}
+
+@media(max-width:600px){
+  .line{
+    width: 280px;
+  }
+}
+@media(max-width:550px){
+  .line{
+    width: 250px;
+  }
+}
+@media(max-width:500px){
+  .line{
+    width: 130px;
+  }
+}
+@media(max-width:400px){
+  .line{
+    width: 100px;
+  }
+  .head{
+    width: 250px;
+    height: 120px;
+  }
+}
